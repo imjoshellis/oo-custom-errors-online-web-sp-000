@@ -6,7 +6,7 @@ class Person
   end
 
   class PartnerError < StandardError
-end
+  end
 
   def get_married(person)
     self.partner = person
